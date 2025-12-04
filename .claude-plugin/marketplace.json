@@ -1,0 +1,22 @@
+{
+  "name": "nix-search-marketplace",
+  "owner": {
+    "name": "Aldo Borrero",
+    "email": "aldo@aldoborrero.com"
+  },
+  "metadata": {
+    "description": "Skills for working with Nix packages and NixOS",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "nix-search",
+      "description": "Help Claude Code search for Nix packages, NixOS options, and flakes using the nix-search CLI tool",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/nix-search"
+      ]
+    }
+  ]
+}
